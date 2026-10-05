@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "devlog-activity-worker",
+  "main": "src/index.ts",
+  "compatibility_date": "2024-10-01",
+  "kv_namespaces": [
+    {
+      "binding": "DEVLOG_KV",
+      "id": "YOUR_KV_NAMESPACE_ID"
+    }
+  ],
+  "triggers": {
+    "crons": [
+      "0 * * * *"
+    ]
+  }
+}
