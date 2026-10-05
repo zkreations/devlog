@@ -1,0 +1,10 @@
+# Secrets (Required for local webhook validation & feed sync)
+GITHUB_WEBHOOK_SECRET=your_local_github_webhook_secret_here
+SYNC_SECRET=your_local_sync_secret_here
+
+# Optional Configurations
+FEED_URLS=https://zkreations.com/feeds/posts/default
+ALLOWED_REPOS=
+ALLOWED_BRANCHES=
+CORS_ORIGIN=*
+MAX_EVENTS=50
